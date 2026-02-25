@@ -34,6 +34,6 @@ public class UseCase2PalindromeCheckerApp {
         }
 
         System.out.println("Input text: " + inputText);
-        System.out.println("Is it a Palindrome? : " + isPalindrome);
+        System.out.println("Is it a palindrome? : " + isPalindrome);
     }
 }
