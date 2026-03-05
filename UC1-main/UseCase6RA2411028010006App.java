@@ -2,7 +2,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Stack;
 
-public class UseCase6PalindromeCheckerApp {
+public class UseCase6RA2411028010006App {
     public static void main(String[] args) {
         String input = "civic";
 
@@ -27,3 +27,4 @@ public class UseCase6PalindromeCheckerApp {
         System.out.println("Is Palindrome? : " + isPalindrome);
     }
 }
+

@@ -1,4 +1,4 @@
-public class UseCase1PalindromeCheckerApp {
+public class UseCase1RA2411028010006App {
     public static void main(String[] args) {
         System.out.println("====================================");
         System.out.println(" Welcome to Palindrome Checker App ");
@@ -8,3 +8,4 @@ public class UseCase1PalindromeCheckerApp {
         System.out.println("Application started successfully.");
     }
 }
+

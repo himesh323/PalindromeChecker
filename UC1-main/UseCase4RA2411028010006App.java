@@ -1,4 +1,4 @@
-public class UseCase4PalindromeCheckerApp {
+public class UseCase4RA2411028010006App {
     public static void main(String[] args) {
         String input = "radar";
         char[] chars = input.toCharArray();
@@ -20,3 +20,4 @@ public class UseCase4PalindromeCheckerApp {
         System.out.println("Is Palindrome? : " + isPalindrome);
     }
 }
+

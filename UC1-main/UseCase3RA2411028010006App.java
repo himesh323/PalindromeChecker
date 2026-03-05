@@ -1,4 +1,4 @@
-public class UseCase3PalindromeCheckerApp {
+public class UseCase3RA2411028010006App {
     public static void main(String[] args) {
         String input = "radar";
         String reversed = "";
@@ -13,3 +13,4 @@ public class UseCase3PalindromeCheckerApp {
         System.out.println("Is Palindrome? : " + isPalindrome);
     }
 }
+

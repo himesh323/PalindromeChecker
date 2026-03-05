@@ -1,19 +1,17 @@
-import java.util.ArrayDeque;
-import java.util.Deque;
+import java.util.Stack;
 
-public class UseCase7PalindromeCheckerApp {
+public class UseCase5RA2411028010006App {
     public static void main(String[] args) {
-        String input = "refer";
+        String input = "noon";
 
-        Deque<Character> deque = new ArrayDeque<>();
+        Stack<Character> stack = new Stack<>();
         for (char c : input.toCharArray()) {
-            deque.addLast(c);
+            stack.push(c);
         }
 
         boolean isPalindrome = true;
-
-        while (deque.size() > 1) {
-            if (!deque.removeFirst().equals(deque.removeLast())) {
+        for (char c : input.toCharArray()) {
+            if (c != stack.pop()) {
                 isPalindrome = false;
                 break;
             }
@@ -23,3 +21,4 @@ public class UseCase7PalindromeCheckerApp {
         System.out.println("Is Palindrome? : " + isPalindrome);
     }
 }
+
