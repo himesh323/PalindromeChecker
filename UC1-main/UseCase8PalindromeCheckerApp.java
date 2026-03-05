@@ -1,6 +1,6 @@
 import java.util.LinkedList;
 
-public class UseCase8RA2411028010006App {
+public class UseCase8PalindromeCheckerApp {
     public static void main(String[] args) {
         String input = "level";
 
@@ -22,4 +22,3 @@ public class UseCase8RA2411028010006App {
         System.out.println("Is Palindrome? : " + isPalindrome);
     }
 }
-

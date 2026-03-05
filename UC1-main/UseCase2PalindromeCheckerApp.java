@@ -1,6 +1,6 @@
 /**
  * ==============================================================
- * MAIN CLASS - UseCase2RA2411028010006App
+ * MAIN CLASS - UseCase2PalindromeCheckerApp
  * ==============================================================
  *
  * Use Case 2: Hardcoded Palindrome Validation
@@ -15,7 +15,7 @@
  * - Determines whether the string is a palindrome
  * - Displays the result on the console
  */
-public class UseCase2RA2411028010006App {
+public class UseCase2PalindromeCheckerApp {
 
     public static void main(String[] args) {
         String inputText = "madam";
@@ -37,4 +37,3 @@ public class UseCase2RA2411028010006App {
         System.out.println("Is it a palindrome? : " + isPalindrome);
     }
 }
-

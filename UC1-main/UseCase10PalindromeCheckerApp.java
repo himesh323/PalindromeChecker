@@ -1,4 +1,4 @@
-public class UseCase10RA2411028010006App {
+public class UseCase10PalindromeCheckerApp {
     public static void main(String[] args) {
         String input = "A man a plan a canal Panama";
         String normalized = input.replaceAll("[^a-zA-Z0-9]", "").toLowerCase();
@@ -16,4 +16,3 @@ public class UseCase10RA2411028010006App {
         System.out.println("Is Palindrome? : " + isPalindrome);
     }
 }
-
